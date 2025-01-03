@@ -14,7 +14,7 @@ public class DB {
     public Connection getCon() {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mp3", "root", "naga@123");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mp3", "root", "****@***");
             System.out.println("connected");
         } catch (Exception e){
             System.out.println(e.getMessage());
